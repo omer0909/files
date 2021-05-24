@@ -3,7 +3,7 @@ import bpy
 object = bpy.context.active_object
 
 size = 2048
-sample = 256
+sample = 32
 distance = 0.5
 filePath = "/tmp/"
 
