@@ -1,0 +1,33 @@
+--Dört ayaklı işçi robot--
+
+1-Hangi motoru tercih etmeli
+2-Hangi işlemciyi tercih etmeli
+3-hareket etme yazılımı
+4-enerji verimliliği
+5-dayanıklılık
+6-büyük kararlar verme
+
+1-Hangi motoru tercih etmeli
+bazı motor türleri
+servo motor(verimli ve hızlıdır ama sürücüsü karmaşıktır)
+step motor(verimliliği yaklaşık 2.5 kat azdır ve motoru hızlı sürmek için akım ayarlı yüksek voltaj sürücüler kullanabilirsiniz, ama hızı ve verimi servoya göre daha az kalacaktır)
+
+daha bir çok tür motor vardır. yukarıda içlerinden en olası olan iki motor türünü yazdım. bunların yanında fırçalı servo motorlar da vardır ama onların fırça ömrü olduğu için önerilmez.
+
+2-Hangi işlemciyi tercih etmeli
+
+rasberry pi kullanabilirsiniz. ama daha çok verimlilik gibi amaçlarınız varsa telefonu modifiye edebilirsiniz.
+
+3-hareket etme yazılımı
+bu konuda iki ana seçenek var. birinci seçenek hareketleri kendiniz yazmanız. ikinci seçenek bir yapay zeka yazıp yavaş yavaş hareket etmeyi ona öğretmeniz. ilk seçenek daha güvenilirdir ama hayal gücünüzü aşan hamleleri yapabilmesi için yapay zeka kullanmanız gerekir.bazı zor hareketlerde(zıplama gibi) robota ani güç takviyesi yapabileceğiniz süper kapasitörler kullanabilirsiniz
+
+4-enerji verimliliği
+bu kısımda telefon işlemcisi kullanılması verimlilşiği arttırır. ayrıca hibrit otomobillerdeki gibi motordan aküye geri besleme yapılabilir.
+
+5-dayanıklılık
+
+dayanıklılık açısından en önemli kısım  rulmanlar ve eklemlerdeki kablolar olacaktır. eklemlerdeki kablolarda grafen veya başka dayanıklı merarialler kullanılabilir. rulman olarakta porselen rulman gibi dayanıklı rulmanlar kullanılabilir.
+enerji depolama birirmi olarakta süper kapasitör kullanılabilir. robotlar planlı ve dakik hareket ettikleri için enerji depolama kapasitesi önemi azalacaktır.
+
+6-büyük kararlar verme
+robotlar büyük karar vermeyecekler çünkü bize hizmet edecekler bu yüzden gelişmiş bir yapay zekaya ihtiyaç duymayacaklar. ileride maden çıkartarak kendilerini kopyalıyan sistemler kurulduğunda tek amaçalrı sistem listesindeki sıralı görevleri yapmak olacak. hem bu sayede robotlar insanlık için risk oluşturmamış olacak
