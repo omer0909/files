@@ -1,0 +1,37 @@
+working directory => staging area => local repo => remote repo
+
+git config --list 
+
+git config --global user.name = 'Ömer Faruk Öz'
+git config --global user.email = 'ozomerfaruk98@gmail.com'
+
+git init (repository oluşturur)
+git status (dosyaların durumları) sonuna -s bayrağı ekleyince daha sade gösterir
+git add . (tüm dosyaları staging areaya taşır)
+git add -A (tüm değişiklilkleri staging areaya taşır)
+git commit -m 'commit açıklaması' (local repoya taşır)
+git restore --staged dosya.txt (dosyayı satging areadan working directory e taşır)
+git restore dosya.html (değişikşliği eski haline alır.)
+
+git show (son yapılan commit) (q çıkış)
+git log (yapılan tüm commitler) sonuna --oneline bayrağı eklenince sade gösterir
+git log -p -2 (son 2 commiti gösterir)
+git log --since=30minutes (3 dakika içinde yapılan commitleri gösterir) hours, days, weeks de denebilir
+
+git checkout 16c9d7f (eski commitlerden birine gider)
+git checkout master (en son commite gelir)
+git revert 16c9d7f (girilen commiti iptal eder)
+
+git reset 16c9d7f (eski commitlerden birine gider ama geri alınamaz tehlikeli)
+restten sonra --soft bayrağı eklerseniz sadece local repo daiki dosyalar değişir
+restten sonra --mixed bayrağı eklerseniz sadece working directory daiki dosyalar değişmez
+restten sonra --hard bayrağı eklerseniz heryerdeki dosyalar değişir
+
+.gitignore dosyasının içine yazılan dosyalarla ilgilenilmez (projenin başında oluşturulmalıdır)
+git rm -r --cache (eğer .gitignore sonradan oluşturulduysa bu şekilde cache temizlenerek hata çözülebilir)
+.gitignore file.txt, /directory, *.xyz gibi parametreler alabilir
+
+git branch yenidal (yeni bir branch oluşturuldu)
+git branch -a (branchları listeler)
+git checkout yenidal (yenidal branc'e gider)
+git merge yenidal (yenidal branch'ı master baranch'a ekler)

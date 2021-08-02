@@ -1,0 +1,20 @@
+## normal mod ##
+"u" geri al
+":i" insert modu
+":q" çık
+":w" kayıt
+sonuna "!" ekleyerek zorlar
+"x" silme "Shift+x" sağa doğru silme
+"Shift+a" satır sonuna git
+"Shift+j" alt satırı üst satıra ekler
+"o" yeni satır ekleyip insert moduna geçer
+":7" 7. satıra gider
+"/bil" bil kelimesini arar. "//bil" ikinci bil yazan yere gitmek için. "?bil" geriye doğru arar
+bir sayının üzerine gelip "Ctrl+a" yapınca sayı artar
+"yy" satırı kopyalar "y3" 3 satırı koyalar
+"p" yapıştır
+"d siler  ""dd" satırı siler
+":help" vim içindeki dökümantasyon. dökümantasyon içindeki dosyaları ":h usr_03.txt" ile aç
+"v" seçim modu
+"Shift+v" satır seçim modu
+"Ctrl+Shift+v" blok seçim modu
