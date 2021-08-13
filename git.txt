@@ -12,6 +12,7 @@ git add -A (tüm değişiklilkleri staging areaya taşır)
 git commit -m 'commit açıklaması' (local repoya taşır)
 git restore --staged dosya.txt (dosyayı satging areadan working directory e taşır)
 git restore dosya.html (değişikşliği eski haline alır.)
+git diff (yaptığımız değişiklikleri ayrıntılı listeler.)
 
 git show (son yapılan commit) (q çıkış)
 git log (yapılan tüm commitler) sonuna --oneline bayrağı eklenince sade gösterir
