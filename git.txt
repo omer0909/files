@@ -10,8 +10,8 @@ git status (dosyaların durumları) sonuna -s bayrağı ekleyince daha sade gös
 git add . (tüm dosyaları staging areaya taşır)
 git add -A (tüm değişiklilkleri staging areaya taşır)
 git commit -m 'commit açıklaması' (local repoya taşır)
-git restore --staged dosya.txt (dosyayı satging areadan working directory e taşır)
-git restore dosya.html (değişikşliği eski haline alır.)
+git restore --staged dosya.txt (dosyayı satging areadan working directory e taşır) veya git reset HEAD dosya.txt
+git restore dosya.html (değişikşliği eski haline alır.) veya git checkout -- dosya.html
 git diff (yaptığımız değişiklikleri ayrıntılı listeler.)
 
 git show (son yapılan commit) (q çıkış)
