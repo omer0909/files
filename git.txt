@@ -39,3 +39,11 @@ git merge yenidal (yenidal branch'ı master baranch'a ekler)
 
 git rm dosya (dosyayı siler)
 git mv dosya dosyam (dosyayı yeniden adlandırır)
+
+
+-------GitHub-------
+
+git remote add <origin name> <link> (<origin name> ismindeki projeyi github reposuna bağlar)
+git remote (çıktı <origin name> ise olmuştur)
+git push -u githubRepo master (git projesindeki tüm değişiklikleri master dalına gönderir)
+git branch --all (uzaktaki dallar da dahil dalları listeler)
