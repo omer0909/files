@@ -36,3 +36,6 @@ git branch yenidal (yeni bir branch oluşturuldu)
 git branch -a (branchları listeler)
 git checkout yenidal (yenidal branc'e gider)
 git merge yenidal (yenidal branch'ı master baranch'a ekler)
+
+git rm dosya (dosyayı siler)
+git mv dosya dosyam (dosyayı yeniden adlandırır)
