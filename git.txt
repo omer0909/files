@@ -2,8 +2,8 @@ working directory => staging area => local repo => remote repo
 
 git config --list 
 
-git config --global user.name = 'Ömer Faruk Öz'
-git config --global user.email = 'ozomerfaruk98@gmail.com'
+git config --global user.name = 'Ömer Faruk Öz' (termux'ta esittir yok)
+git config --global user.email = 'ozomerfaruk98@gmail.com' (termux'ta esittir yok)
 
 git init (repository oluşturur)
 git status (dosyaların durumları) sonuna -s bayrağı ekleyince daha sade gösterir
