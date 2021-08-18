@@ -1,0 +1,66 @@
+/*
+00 empty
+
+01 a pion
+02 a rook
+03 a knight
+04 a bishop
+05 a queen
+06 a king
+
+07 b pion
+08 b rook
+09 b knight
+10 b bishop
+11 b queen
+12 b king
+*/
+
+#include<stdio.h>
+
+int table[8][8];
+
+int charToInt(char* number){
+	return (number[0] - 48) * 10 + (number[1] - 48);
+}
+
+void readTable()
+{
+	FILE *file;
+	file= fopen("table.txt", "r");
+	
+	if(file==NULL){
+		printf("hata");
+	}
+
+	for(int x; x < 8; x++){
+		for(int y; y < 8; y++){
+			char number [2];
+			number[0] = fgetc(file);
+			number[1] = fgetc(file);
+			fgetc(file);
+		}
+	}
+	fclose(file);
+}
+
+void printTable()
+{
+
+	for(int x; x < 8; x++){
+		for(int y; y < 8; y++){
+			printf("aa %i", table[x][y]);
+		}
+	}
+}
+
+
+int main(int argc, char *argv[])
+{
+	readTable();
+	printTable();
+	return 0;
+}
+
+
+
