@@ -18,3 +18,4 @@ bir sayının üzerine gelip "Ctrl+a" yapınca sayı artar
 "v" seçim modu
 "Shift+v" satır seçim modu
 "Ctrl+Shift+v" blok seçim modu
+":ter" trminali açar
