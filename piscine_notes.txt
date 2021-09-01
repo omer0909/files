@@ -1,0 +1,3 @@
+touch -mht 2077012342 test6 //link dosyası için tarihi ayarlar
+ln -s gosterDosya dosya // ln dosyası oluşturur
+dd if=/dev/zero of=dosya bs=boyut count=1 // dosya boyutunu ayarlar
