@@ -3,3 +3,5 @@ touch -t 2077012342 * // normal dosyaların tarihini ayarlar
 ln -s gosterDosya dosya // ln dosyası oluşturur
 dd if=/dev/zero of=dosya bs=boyut count=1 // dosya boyutunu ayarlar
 find . -name "#*#" -type f -print -delete -o -name "*~" -type f -print -delete // dosyaları bulup siler
+Norminette //kontrol
+gcc *.c -Wall -Wextra -Werror
