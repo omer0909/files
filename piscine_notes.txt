@@ -16,3 +16,7 @@ brew kurma
 mkdir $HOME/goinfre/homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C $HOME/goinfre/homebrew
 echo 'export PATH=$PATH:$HOME/goinfre/homebrew/bin' >> $HOME/.zshrc
 export PATH=$PATH:$HOME/goinfre/homebrew/bin
+
+valgrid kurma
+brew tap LouisBrunner/valgrind
+brew install --HEAD LouisBrunner/valgrind/valgrind
