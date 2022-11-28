@@ -17,5 +17,5 @@ bir sayının üzerine gelip "Ctrl+a" yapınca sayı artar
 ":help" vim içindeki dökümantasyon. dökümantasyon içindeki dosyaları ":h usr_03.txt" ile aç
 "v" seçim modu
 "Shift+v" satır seçim modu
-"Ctrl+Shift+v" blok seçim modu
+"Ctrl+v" blok seçim modu
 ":ter" terminali açar
