@@ -20,3 +20,6 @@ export PATH=$PATH:$HOME/goinfre/homebrew/bin
 valgrid kurma
 brew tap LouisBrunner/valgrind
 brew install --HEAD LouisBrunner/valgrind/valgrind
+
+code . komutu için ~/.zshrc kodu
+alias code='open -a "Visual Studio Code"'
