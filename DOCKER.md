@@ -20,28 +20,46 @@ docker run -it \
     bash
  ```
 docker container setup
-# ./run_docker.bash
+```sh
+sudo ./run_docker.bash
+ ```
 
 docker container'ları listeler
-# docker images
+```sh
+sudo docker images
+ ```
 
 docker container'ı siler
-# docker rm -f <container_name_or_id>
+```sh
+sudo docker rm -f <container_name_or_id>
+ ```
 
 çalışan container'ları listeler "-a" eklerseniz durdurulmuş olanları da listeler
-# docker ps
+```sh
+sudo docker ps
+ ```
 
 container çalışmasını durdurur
-# docker stop <container_name_or_id>
+```sh
+sudo docker stop <container_name_or_id>
+ ```
 
 durdurulan container çalıştırılır
-# docker start <container_name_or_id>
+```sh
+sudo docker start <container_name_or_id>
+ ```
 
 çalışan bir container'ın içine girer
-# docker exec -it <container_name_or_id> bash
+```sh
+sudo docker exec -it <container_name_or_id> bash
+ ```
 
 dosyaları bind eder
-# sudo docker run -it -v $PWD/project:/project r1_noetic_from_file
+```sh
+sudo sudo docker run -it -v $PWD/project:/project r1_noetic_from_file
+ ```
 
 docker image indirilir
-# docker pull osrf/ros:humble-desktop
+```sh
+sudo docker pull osrf/ros:humble-desktop
+ ```
