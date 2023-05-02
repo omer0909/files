@@ -65,5 +65,5 @@ sudo docker pull osrf/ros:humble-desktop
  ```
  vscode run on root
  ```sh
-code /directory-to-open --user-data-dir='.' --no-sandbox
+code . --user-data-dir='.' --no-sandbox
  ```
