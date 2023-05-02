@@ -15,7 +15,6 @@ sudo docker run -it \
     --volume="$XAUTH:$XAUTH" \
     --net=host \
     --privileged \
-    # --runtime=nvidia \
     osrf/ros:noetic-desktop  \
     bash
  ```
