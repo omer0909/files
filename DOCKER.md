@@ -1,4 +1,4 @@
- ```bibtex
+ ```sh
 docker run -it \
     --name=r1_noetic_from_file \
     --env="DISPLAY=$DISPLAY" \
