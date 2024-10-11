@@ -40,6 +40,8 @@ git merge yenidal (yenidal branch'ı master baranch'a ekler)
 git rm dosya (dosyayı siler)
 git mv dosya dosyam (dosyayı yeniden adlandırır)
 
+git-lfs büyük dosyalar için optimize edilmiş git
+
 
 -------GitHub-------
 
