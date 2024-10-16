@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install gcc clang git build-essential tree vim python3-venv htop curl -y
+sudo apt install gcc clang git build-essential tree vim python3-venv htop curl ffmpeg -y
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
