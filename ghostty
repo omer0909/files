@@ -1,0 +1,13 @@
+#config path "~/.config/ghostty/config"
+
+theme = "Builtin Solarized Light"
+window-decoration = false
+
+keybind = ctrl+down=goto_split:bottom
+keybind = ctrl+up=goto_split:top
+keybind = ctrl+left=goto_split:left
+keybind = ctrl+right=goto_split:right
+
+# Also add this line in "~/.ssh/config"
+# Host *
+#     SetEnv TERM=xterm-256color
