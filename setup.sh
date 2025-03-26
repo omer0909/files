@@ -7,6 +7,7 @@ sudo apt install gcc clang git build-essential tree vim python3-venv htop curl f
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 sudo snap install yazi --classic
+sudo snap install drawio
 cargo install eza
 
 python3 -m venv ~/global
