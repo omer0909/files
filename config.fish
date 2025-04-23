@@ -18,4 +18,5 @@ if status is-interactive
     alias ll='eza --git -alh -F --total-size'
     alias la='eza -A'
     alias l='eza -F -A'
+    alias tree='eza -T -F -A'
 end
