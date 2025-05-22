@@ -12,6 +12,7 @@ if status is-interactive
         end
         rm -f -- "$tmp"
     end
+    export EDITOR=helix
     bass source /opt/ros/jazzy/setup.bash
 
     alias global='source global/bin/activate.fish'
