@@ -11,6 +11,7 @@ sudo snap install helix --classic
 sudo snap install blender --classic
 sudo snap install freecad
 sudo snap install drawio
+sudo snap install termdown
 cargo install eza
 cargo install starship --locked
 cargo install bat --locked
